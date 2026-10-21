@@ -76,9 +76,9 @@ gc .\logs\access.log | select-string "ERROR" >> .\logs\tong_hop_ngay2.txt
 ```
 ## Bài 5. Câu hỏi ngắn
 
-- **a)> là ghi đè (xóa dữ liệu cũ, tạo mới); >> là ghi nối tiếp vào cuối file (giữ nguyên dữ liệu cũ).**
-- **b)Mất dòng tiêu đề đầu tiên (=== TONG HOP ACCESS LOG ===) vì lệnh thứ hai sẽ ghi đè lên toàn bộ file.**
-- **c)Giúp script linh hoạt, chạy được trên mọi máy tính hoặc hệ điều hành khác nhau mà không bị lỗi đường dẫn khi nộp bài.**
+- **a)** Dấu > là ghi đè (xóa dữ liệu cũ, tạo mới); >> là ghi nối tiếp vào cuối file (giữ nguyên dữ liệu cũ).
+- **b)** Mất dòng tiêu đề đầu tiên (=== TONG HOP ACCESS LOG ===) vì lệnh thứ hai sẽ ghi đè lên toàn bộ file.
+- **c)** Giúp script linh hoạt, chạy được trên mọi máy tính hoặc hệ điều hành khác nhau mà không bị lỗi đường dẫn khi nộp bài.
 
 ## Tự chấm (điền sau khi có đáp án)
 
